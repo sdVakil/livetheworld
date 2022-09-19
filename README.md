@@ -29,3 +29,5 @@ Development Notes
 3. Most of the css is implemented using inline styles inside components because of relevantly smaller scale of the application.
 
 4. Design pattern used is "Atomic design".
+
+5. UI library used is mui5
