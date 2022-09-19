@@ -1,6 +1,9 @@
 # livetheworld
+
+Live URL:
+	https://livetheworld-8bytu2lty-sdvakil.vercel.app/
 ------------------------------------------------------------------------------------
-Setup
+Local Setup
 
 1. Clone repo to your personal computer.
 2. Open it in any Text Editor of your preference.
