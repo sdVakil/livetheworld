@@ -13,6 +13,7 @@ import { useParams } from "react-router-dom";
 const Activity = () => {
   const [activity, setActivity] = useState(null);
   const params = useParams();
+
   useEffect(() => {
     const slug = params.activity_slug;
     srvGetActivity(slug).then((res) => {
