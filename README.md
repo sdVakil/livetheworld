@@ -31,3 +31,5 @@ Development Notes
 4. Design pattern used is "Atomic design".
 
 5. UI library used is mui5
+
+Time consumed for this work is approx 8-10 hours
