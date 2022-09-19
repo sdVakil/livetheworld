@@ -23,7 +23,7 @@ export default function GoogleMaps({ latitude, longitude }) {
     //Provide urlkey to access google maps
     <div style={{ height: "50vh", width: "100%" }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
+        bootstrapURLKeys={{ key: "AIzaSyAX10rFTQTPF4o4xhzYQO7V4nfuAUjNLfk" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
