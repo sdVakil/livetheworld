@@ -16,13 +16,13 @@ Assumptions
 Development Notes
 
 1. Folder Structure:
-	"/api/" folder contains generic configuration for axios to consume apis.
-	"/components/Common/" contains all of the components that are reused in multiple parts of the application e.g "Favorite Component".
-	"/pages/" contains all of the container pages that are composed of multiple reusable components. e.g "Activity Page".
-	"/redux/actionCreators" contains relevant action creators to be consumed by pages and/or components.
-	"/redux/actionTypes" contains relevant mapped keys to prevent errors while dispatching redux events from action creators or receiving events in reducers.
-	"/redux/reducers" contains reducers for redux store and a root reducer to setup store.
-	"/services/" contains methods for api calls to be reused all over the application.
+	1. "/api/" folder contains generic configuration for axios to consume apis.
+	2. "/components/Common/" contains all of the components that are reused in multiple parts of the application e.g "Favorite Component".
+	3. "/pages/" contains all of the container pages that are composed of multiple reusable components. e.g "Activity Page".
+	4. "/redux/actionCreators" contains relevant action creators to be consumed by pages and/or components.
+	5. "/redux/actionTypes" contains relevant mapped keys to prevent errors while dispatching redux events from action creators or receiving events in reducers.
+	6. "/redux/reducers" contains reducers for redux store and a root reducer to setup store.
+	7. "/services/" contains methods for api calls to be reused all over the application.
 
 2. Eact componet or page has its own folder to club its Page (container), css file, and components that are only used in this Page/Component to utilize React's 	   components based architecture efficiently.
 
